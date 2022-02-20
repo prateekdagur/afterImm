@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c2a0639.chunk.css",
+    "main.js": "/static/js/main.da59b5ca.chunk.js",
+    "main.js.map": "/static/js/main.da59b5ca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d5c6aba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d5c6aba.js.map",
+    "static/css/2.68b64559.chunk.css": "/static/css/2.68b64559.chunk.css",
+    "static/js/2.aa1c7575.chunk.js": "/static/js/2.aa1c7575.chunk.js",
+    "static/js/2.aa1c7575.chunk.js.map": "/static/js/2.aa1c7575.chunk.js.map",
+    "static/js/3.c3d9bdfc.chunk.js": "/static/js/3.c3d9bdfc.chunk.js",
+    "static/js/3.c3d9bdfc.chunk.js.map": "/static/js/3.c3d9bdfc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.68b64559.chunk.css.map": "/static/css/2.68b64559.chunk.css.map",
+    "static/css/main.9c2a0639.chunk.css.map": "/static/css/main.9c2a0639.chunk.css.map",
+    "static/js/2.aa1c7575.chunk.js.LICENSE.txt": "/static/js/2.aa1c7575.chunk.js.LICENSE.txt",
+    "static/media/PoolDetail.css": "/static/media/banner.a218e6b7.jpg",
+    "static/media/loading.2115b6bd.gif": "/static/media/loading.2115b6bd.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d5c6aba.js",
+    "static/css/2.68b64559.chunk.css",
+    "static/js/2.aa1c7575.chunk.js",
+    "static/css/main.9c2a0639.chunk.css",
+    "static/js/main.da59b5ca.chunk.js"
+  ]
+}

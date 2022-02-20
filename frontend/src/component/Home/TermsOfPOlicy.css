@@ -1,0 +1,114 @@
+.term-policy{
+    padding: 30px 0;
+}
+.title-main{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 80px;
+    letter-spacing: 0;
+    color: #ffffff;
+    margin-top:50px;
+}
+.txt1{
+    color: white
+}
+.subheading{
+    color: white
+}
+.subt-txt{
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom:40px;
+}
+.subt-txt:after{
+	background-image: url(../../images/tille-btm.png);
+	width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	right:0;
+	content:"";
+	bottom: -18px;
+	height: 5px;
+}
+.policy-paragrph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 25px;
+}
+.sub-title li{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 15px; 
+    padding-left: 15px;
+}
+.sub-title ol{
+padding-left: 35px;
+}
+.paragrph-swap{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 25px;  
+    padding-left: 50px;
+}
+.sub-title ol.ol-left{
+    padding-left: 70px;
+}
+.sub-title li a {
+    color: #7bf5fb;
+    text-decoration: none;
+} 
+.policy-paragrph a{
+    color: #7bf5fb;
+    text-decoration: none;
+}
+
+.sub-title .hightlight li, .policy-paragrph.hightlight{
+    opacity: 1 !important;
+}
+@media(max-width: 767px){
+.sub-title ol {
+    padding-left: 25px;
+}
+.sub-title li {
+    padding-left: 5px;
+}
+.paragrph-swap {
+    padding-left: 30px;
+}
+.sub-title ol.ol-left {
+    padding-left: 50px;
+}
+.subt-txt:after{
+	background-image: url(../../images/tille-btm-tb.png);
+	width: 100% !important;
+	height: 5px;
+}
+}
+@media(max-width: 640px){
+    .subt-txt:after{
+        background-image: url(../../images/tille-btm-mob.png);
+        width: 100% !important;
+        height: 5px;
+    }
+}
