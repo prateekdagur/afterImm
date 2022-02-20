@@ -7,16 +7,17 @@ const path = require("path");
 //const fs = require("fs");
 const fileUpload = require("express-fileupload");
 
-
+//test
 //App config
 const app = express();
-app.use(express.json({ limit: '50mb' }));
+app.use(express.json({ limit: "50mb" }));
 app.use(cookieParser());
 app.use(fileUpload());
-app.use(cors({
-	origin: ['https://launchpad.seedify.fund/', 'http://localhost:3000/'],
-}));
-
+app.use(
+	cors({
+		origin: ["https://launchpad.seedify.fund/", "http://localhost:3000/"],
+	}),
+);
 
 app.use(
 	"./frontend/build/exportcsv/",
@@ -67,5 +68,3 @@ const port = process.env.PORT;
 app.listen(port, () => {
 	console.log(`listening port localhost : ${port}`);
 });
-
-
